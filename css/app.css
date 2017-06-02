@@ -1,0 +1,74 @@
+
+#header-container,
+#info-container {
+  background-color: #EA80FC;
+  color: white;
+}
+
+
+
+/**  Afectamos al menu
+<nav id="menu-container" class="navbar navbar-light">
+
+	<ul class="nav navbar-nav">
+	  <li class="nav-item active">
+	    <a class="nav-link"
+*/
+.navbar-light li, .navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link:hover{
+	color: black;
+}
+
+
+
+/** =================================================== 
+	Imagenes svg en header
+=================================================== */
+
+.img-svg{
+	width: 200px;
+	height: 200px;
+}
+
+img{  
+  display:flex;
+  margin:0 auto;
+}
+
+/** =================================================== 
+	Fin Imagenes svg en header
+=================================================== */
+
+
+
+#menu-container {
+  background-color: #f7f7f9;
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    color: white;
+}
+
+
+
+.form-control:focus {
+  border-color: #EA80FC;
+}
+
+.btn.btn-platzi {
+  background-color: #EA80FC;
+  color: white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #8ab542;
+}
+
+#search-bar {
+  padding: 1em;  
+}
+
+#info-container h4 {
+  text-align: center;
+}
