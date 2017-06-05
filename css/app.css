@@ -32,7 +32,7 @@
 
 img{  
   display:flex;
-  margin:0 auto;
+  margin:0 auto;  /* centramos en su cotenedor */
 }
 
 /** =================================================== 
@@ -72,3 +72,38 @@ img{
 #info-container h4 {
   text-align: center;
 }
+
+
+
+
+/** ==================================== 
+  Carrusel 
+==================================== 
+
+tamaño de las imagenes en carrusel 
+
+
+todos los margenes en 0 y auto para los costados */
+#productsCarousel img {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+}
+/*
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 300px;
+}
+*/
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 450px) { 
+  #productsCarousel img {
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+  }
+}
+
+
