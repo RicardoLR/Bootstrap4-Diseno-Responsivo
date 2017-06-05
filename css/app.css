@@ -97,7 +97,7 @@ todos los margenes en 0 y auto para los costados */
 }
 */
 
-/* Smartphones (portrait) */
+/* Smartphones (portrait) aplica hasta el maximo */
 @media only screen and (max-width : 450px) { 
   #productsCarousel img {
     margin: 0 auto;
@@ -106,4 +106,40 @@ todos los margenes en 0 y auto para los costados */
   }
 }
 
+
+
+/** ============================ 
+  Cosas de footer  
+============================ */
+#footer-container {
+  background-color: #00838F;
+  color: white;
+  padding: 3em 0;
+}
+
+#footer-container h4 {
+  font-size: 16px;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+
+/** para moviles */
+@media (max-width: 768px) {
+  
+  /* todas las clases que comienzen con  "col-" */
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
+
+.nav .nav-item a {
+    color: white;
+}
+
+/** ============================ 
+  Fin Cosas de footer  
+============================ */
 
